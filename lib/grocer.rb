@@ -1,13 +1,15 @@
 def find_item_by_name_in_collection(name, collection)
-  collection.each do |item_info|
-  if item_info[:item] == name
-  return item_info
-  end
-end
-
+  
   # Implement me first!
   #
   # Consult README for inputs and outputs
+  counter = 0
+  while counter < collection.length
+    if colletion[counter][:item] == name
+      return collection[counter]
+    end
+    counter += 1
+  end
 end
 
 
