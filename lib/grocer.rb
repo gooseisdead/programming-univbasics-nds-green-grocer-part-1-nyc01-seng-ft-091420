@@ -11,7 +11,6 @@ end
 
 
 def consolidate_cart(cart)
-  def consolidate_cart(cart)
   output = {}
   cart.each do |item|
     item_name = item.keys[0]
